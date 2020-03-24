@@ -33,7 +33,7 @@ def process_dataframe(df_aux):
 	    
 	    intensity_mean = intensity_mean.as_matrix()[0]
 	    
-	    intensity_var = var[var['Image'] == img_name]['Mean Intensity']norm
+	    intensity_var = var[var['Image'] == img_name]['Mean Intensity']
 	    
 	    intensity_var = intensity_var.as_matrix()[0]
 	    
